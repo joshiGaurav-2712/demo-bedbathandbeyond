@@ -1,0 +1,337 @@
+:root { 
+  --alto: #dadcdf;
+  --black: #000000;
+  --celeste: #cccccc;
+  --cream-can: #f2cf56;
+  --dune: #3b2f2f;
+  --ecru-white: #f6f3ea;
+  --fuscous-gray: #545658;
+  --granite-gray: #626669;
+  --granite-gray-2: #666666;
+  --granite-gray-3: #626669e6;
+  --gray-nurse: #e8e8e8;
+  --gray-nurse-2: #e7e8ea;
+  --guardsman-red: #d60000;
+  --midnight-blue: #003366;
+  --mine-shaft: #2f3337;
+  --mine-shaft-2: #333333;
+  --pearl-bush: #e3e0d1;
+  --sandstone: #736d63;
+  --science-blue: #0066cc;
+  --science-blue-2: #0255cc;
+  --spring-wood: #faf7f0;
+  --thunderbird: #c52d05;
+  --torea-bay: #1928a0;
+  --white: #ffffff;
+ 
+  --font-size-l: 14.4px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 16px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+ 
+  --font-family-hind-bold: "Hind-Bold", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-jost: "Jost", Helvetica;
+  --font-family-open_sans-bold: "Open Sans-Bold", Helvetica;
+  --font-family-open_sans-regular: "Open Sans-Regular", Helvetica;
+  --font-family-open_sans-semibold: "Open Sans-SemiBold", Helvetica;
+  --font-family-poppins-bold: "Poppins-Bold", Helvetica;
+}
+.jost-normal-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-bold-thunderbird-16px {
+  color: var(--thunderbird);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-normal-fuscous-gray-12px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-regular-normal-mine-shaft-14px {
+  color: var(--mine-shaft-2);
+  font-family: var(--font-family-open_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-fuscous-gray-14px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-bold-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-bold-fuscous-gray-14px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-semi-bold-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans-semibold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-normal-granite-gray-14px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-11-2px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 11.2px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-regular-normal-mine-shaft-12px {
+  color: var(--mine-shaft-2);
+  font-family: var(--font-family-open_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-granite-gray-12px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-bold-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-regular-normal-black-14-4px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-thunderbird-14px {
+  color: var(--thunderbird);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-normal-mine-shaft-13-3px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-11-1px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 11.1px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-regular-normal-science-blue-12px {
+  color: var(--science-blue);
+  font-family: var(--font-family-open_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-bold-mine-shaft-11px {
+  color: var(--mine-shaft-2);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-semi-bold-guardsman-red-14-4px {
+  color: var(--guardsman-red);
+  font-family: var(--font-family-open_sans-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.opensans-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-bold-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-bold-dune-18px {
+  color: var(--dune);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-normal-granite-gray-16px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-bold-torea-bay-14px {
+  color: var(--torea-bay);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-bold-mine-shaft-12px {
+  color: var(--mine-shaft-2);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-bold-torea-bay-16px {
+  color: var(--torea-bay);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.hind-bold-science-blue-12-8px {
+  color: var(--science-blue-2);
+  font-family: var(--font-family-hind-bold);
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-semi-bold-granite-gray-14-4px {
+  color: var(--granite-gray-2);
+  font-family: var(--font-family-open_sans-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-bold-science-blue-16px {
+  color: var(--science-blue);
+  font-family: var(--font-family-open_sans-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-bold-mine-shaft-11px {
+  color: var(--mine-shaft-2);
+  font-family: var(--font-family-poppins-bold);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
