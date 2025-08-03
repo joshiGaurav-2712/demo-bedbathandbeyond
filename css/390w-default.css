@@ -123,9 +123,8 @@
   align-items: center;
   background-color: var(--ecru-white);
   display: flex;
-  height: 68px;
-  min-width: 390px;
-  padding: 0 16px;
+  width:100%;
+  justify-content: center;
 }
 
 .x390w-default .vector-17 {
@@ -594,17 +593,14 @@
 .x390w-default .overlap-group20 {
   align-items: flex-start;
   display: flex;
-  gap: 288px;
-  height: 390px;
-  margin-top: 21px;
   min-width: 390px;
-  padding: 8px 0;
+  padding: 8px 10px;
   position: relative;
   overflow: hidden;
 }
 
 .x390w-default .hero-video {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -616,7 +612,7 @@
 .x390w-default .background-7 {
   align-items: flex-start;
   background-color: var(--thunderbird);
-  display: flex;
+  display: none;
   height: 24px;
   justify-content: flex-end;
   margin-top: 0;
@@ -9200,7 +9196,7 @@
 
 .x390w-default .flex-col-12 {
   align-items: flex-start;
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -10180,7 +10176,6 @@
 .x390w-default .faq-section {
   background-color: var(--white);
   padding: 48px 16px;
-  width: 390px;
   margin: 0 auto;
 }
 
@@ -10496,4 +10491,86 @@
 
 .x390w-default .button-see-all-reviews {
   background-color: var(--thunderbird) !important;
+}
+
+
+    .sticky-cart {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+      padding: 16px 16px 0px 16px;
+      z-index: 1000;
+    }
+
+    .sticky-cart button {
+      width: 100%;
+      padding: 16px;
+      background:#c52d05;
+      border: none;
+      border-radius: 6px;
+      letter-spacing: 0;
+      line-height: normal;
+      text-align: center;
+      font-size: 15px;
+      color: var(--white);
+      font-family: var(--font-family-inter);
+      font-style: normal;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .slide-text-container {
+      overflow: hidden;
+      height: 1.5em;
+      margin-top: 12px;
+      position: relative;
+    }
+
+    .troopod_delivery_info {
+  position: relative;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+  display: none;
+  font-size: 13px;
+  font-family: var(--font-family-inter);
+
+}
+
+
+.troopod_delivery_info.active {
+  display: flex;
+  position: relative;
+  animation: slideUp 3s forwards; 
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+  font-family: var(--font-family-inter);
+  font-size: 13px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@keyframes slideUp {
+0% {
+  transform: translateY(100%);
+  opacity: 0;
+}
+10%, 90% {
+  transform: translateY(0);
+  opacity: 1;
+}
+100% {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+}
+
+@media (min-width: 768px) {
+  .sticky-cart {
+      display: none;
+    }
 }
