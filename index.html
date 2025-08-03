@@ -44,7 +44,7 @@
         <div class="background-2">
           <img src="./img/header.png" alt="Header Image" class="header-image" />
         </div>
-        
+
         <div class="container-33">
           <div class="background-5">
             <div class="overlap-group-4">
@@ -328,70 +328,72 @@
         </div>
 
         <div id="stickyNav" class="nav-container">
-                <div style="display: flex;justify-content: center;gap: 10px;align-items: center;width: 100%;padding: 10px 10px;background: #FFF;">
-                  <a href="#highlights" class="breadcrum">Highlights</a>
-                  <a href="#comparision" class="breadcrum">Comparision</a>
-                  <a href="#faq_section" class="breadcrum">FAQs</a>
-                  <a href="#reviews_section" class="breadcrum">Reviews</a>
-                 </div>
-                </div>  
+          <div
+            style="display: flex;justify-content: center;gap: 10px;align-items: center;width: 100%;padding: 10px 10px;background: #FFF;">
+            <a href="#highlights" class="breadcrum">Highlights</a>
+            <a href="#comparision" class="breadcrum">Comparision</a>
+            <a href="#faq_section" class="breadcrum">FAQs</a>
+            <a href="#reviews_section" class="breadcrum">Reviews</a>
+          </div>
+        </div>
 
-            <script>
-                const nav = document.getElementById("stickyNav");
-                const navOffset = nav.offsetTop;
+        <script>
+          const nav = document.getElementById("stickyNav");
+          const navOffset = nav.offsetTop;
 
-                window.addEventListener("scroll", () => {
-                  if (window.scrollY > navOffset) {
-                    nav.classList.add("sticky");
-                  } else {
-                    nav.classList.remove("sticky");
-                  }
-                });
-              </script>  <script>
-                function setActiveBreadcrumb() {
-                  const hash = window.location.hash;
-                  document.querySelectorAll('.breadcrum').forEach(link => {
-                    link.classList.toggle('active', link.getAttribute('href') === hash);
-                  });
-                }
+          window.addEventListener("scroll", () => {
+            if (window.scrollY > navOffset) {
+              nav.classList.add("sticky");
+            } else {
+              nav.classList.remove("sticky");
+            }
+          });
+        </script>
+        <script>
+          function setActiveBreadcrumb() {
+            const hash = window.location.hash;
+            document.querySelectorAll('.breadcrum').forEach(link => {
+              link.classList.toggle('active', link.getAttribute('href') === hash);
+            });
+          }
 
-                // Run on load
-                window.addEventListener('DOMContentLoaded', setActiveBreadcrumb);
-                
-                // Run on hash change
-                window.addEventListener('hashchange', setActiveBreadcrumb);
-              </script>
-              <style>
-              .nav-container {
-                position: relative;
-                z-index: 1000;
-                transition: all 0.3s ease;
-                margin-bottom: 0px;
-                margin-top: 2px;
-                width: 100%;
-              }
+          // Run on load
+          window.addEventListener('DOMContentLoaded', setActiveBreadcrumb);
 
-              .nav-container a{
-                  display: block !important;
-                  padding: 7px;
-                  font-size: 14px;
-                  font-family: var(--font-family-inter);
-                  color: #FFF;
-                  background: #c52d05;
-              }
+          // Run on hash change
+          window.addEventListener('hashchange', setActiveBreadcrumb);
+        </script>
+        <style>
+          .nav-container {
+            position: relative;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            margin-bottom: 0px;
+            margin-top: 2px;
+            width: 100%;
+          }
 
-              .nav-container.sticky {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-              }
+          .nav-container a {
+            display: block !important;
+            padding: 7px;
+            font-size: 14px;
+            font-family: var(--font-family-inter);
+            color: #FFF;
+            background: #3b2f2f;
+          }
 
-              .breadcrum.active {
-                color: #FFF;
-                background-color:#c52d05;
-              }
-              </style>
+          .nav-container.sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+          }
+
+          .breadcrum.active {
+            color: #FFF;
+            background-color: #3b2f2f;
+          }
+        </style>
 
 
         <!-- Real Sanctuary Stories Section -->
@@ -1299,6 +1301,200 @@
               </div>
             </div>
           </section>
+
+          <!-- Sanctuary Specifications Section -->
+          <section class="sanctuary-specifications">
+            <div class="sanctuary-container">
+              <h2>Built for Your Peace of Mind</h2>
+              <div class="specs-grid">
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <img src="img/weather-icon.svg" alt="All-weather protection">
+                  </div>
+                  <div class="spec-content">
+                    <h3>All-Season Sanctuary Protection</h3>
+                    <p>Handwoven weather-resistant materials ensure your peace of mind through every season</p>
+                    <div class="spec-detail">Handwoven resin wicker over rust-free aluminum frame</div>
+                  </div>
+                </div>
+
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <img src="img/comfort-icon.svg" alt="Comfort design">
+                  </div>
+                  <div class="spec-content">
+                    <h3>Sink-In Comfort for Endless Relaxation</h3>
+                    <p>Premium cushions designed for hours of peaceful sanctuary enjoyment</p>
+                    <div class="spec-detail">Thick cushions with high-performance foam fill</div>
+                  </div>
+                </div>
+
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <img src="img/setup-icon.svg" alt="Easy setup">
+                  </div>
+                  <div class="spec-content">
+                    <h3>Simple Sanctuary Setup</h3>
+                    <p>Easy assembly means you're relaxing in your new sanctuary sooner</p>
+                    <div class="spec-detail">Professional setup available for ultimate convenience</div>
+                  </div>
+                </div>
+
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <img src="img/scale-icon.svg" alt="Perfect scale">
+                  </div>
+                  <div class="spec-content">
+                    <h3>Perfect Sanctuary Scale</h3>
+                    <p>Generous proportions for comfortable solo relaxation or intimate conversation</p>
+                    <div class="spec-detail">82.25" W x 37.75" D x 34.63" H</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="care-section">
+                <h3>Low-Maintenance Peace</h3>
+                <p>Simple care routine means more time enjoying your sanctuary, less time maintaining it</p>
+                <div class="care-details">Clean with mild soap and water • UV-resistant fabric • Weather-resistant
+                  construction</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Complete Sanctuary Solution Section -->
+          <section class="sanctuary-solution">
+            <div class="sanctuary-container">
+              <h2>Everything You Need is Here</h2>
+              <p class="section-description">Start with your perfect sofa, complete your sanctuary over time</p>
+
+              <div class="solution-grid">
+                <div class="solution-item featured">
+                  <div class="item-image">
+                    <img src="img/signature-design-by-ashley-beachcroft-outdoor-coffee-table@2x.png"
+                      alt="Beachcroft coffee table sanctuary centerpiece">
+                  </div>
+                  <div class="item-content">
+                    <h3>Your Sanctuary's Heart</h3>
+                    <p>The perfect centerpiece for morning coffee and evening conversations. Complete your peace with
+                      this matching table.</p>
+                    <div class="item-price">$498.37</div>
+                    <button class="btn-secondary">Add to Sanctuary</button>
+                  </div>
+                  <div class="item-tag">Sanctuary Essential</div>
+                </div>
+
+                <div class="solution-item">
+                  <div class="item-image">
+                    <img src="img/signature-design-by-ashley-beachcroft-hand-woven-wicker-look-swi@2x.png"
+                      alt="Beachcroft swivel chairs sanctuary expansion">
+                  </div>
+                  <div class="item-content">
+                    <h3>Expand Your Sanctuary</h3>
+                    <p>Add flexible seating for guests or create your personal meditation corner with these coordinating
+                      chairs.</p>
+                    <div class="item-price">From $2,197.96</div>
+                    <button class="btn-secondary">Add to Sanctuary</button>
+                  </div>
+                </div>
+
+                <div class="solution-item">
+                  <div class="item-image">
+                    <img src="img/signature-design-by-ashley-beachcroft-black-gray-3-piece-outdoor@2x.png"
+                      alt="Beachcroft dining set sanctuary dining">
+                  </div>
+                  <div class="item-content">
+                    <h3>Sanctuary Dining Experience</h3>
+                    <p>Transform takeout into special meals with outdoor dining that brings everyone together.</p>
+                    <div class="item-price">$1,617.43</div>
+                    <button class="btn-secondary">Add to Sanctuary</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bundle-offer">
+                <div class="bundle-content">
+                  <h3>Complete Sanctuary Bundle</h3>
+                  <p>Save when you create your complete outdoor sanctuary</p>
+                  <div class="bundle-savings">Save up to $400 on complete sets</div>
+                  <button class="btn-primary">Build Complete Sanctuary</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Investment Section -->
+          <section class="sanctuary-investment">
+            <div class="sanctuary-container">
+              <h2>Invest in Your Daily Peace</h2>
+              <div class="investment-content">
+                <div class="value-proposition">
+                  <div class="price-display">
+                    <span class="price-label">Your Sanctuary Investment</span>
+                    <span class="price-amount">$1,586.75</span>
+                    <div class="value-context">Less than $5 per day over one year for daily peace and happiness</div>
+                  </div>
+
+                  <div class="confidence-builders">
+                    <div class="confidence-item">
+                      <div class="confidence-icon">🚚</div>
+                      <div class="confidence-content">
+                        <h4>Delivered to Your Sanctuary</h4>
+                        <p>Free shipping included</p>
+                      </div>
+                    </div>
+
+                    <div class="confidence-item">
+                      <div class="confidence-icon">↩️</div>
+                      <div class="confidence-content">
+                        <h4>Risk-Free Sanctuary Trial</h4>
+                        <p>30-day return guarantee</p>
+                      </div>
+                    </div>
+
+                    <div class="confidence-item">
+                      <div class="confidence-icon">🛡️</div>
+                      <div class="confidence-content">
+                        <h4>Long-term Peace of Mind</h4>
+                        <p>3-year protection available</p>
+                      </div>
+                    </div>
+
+                    <div class="confidence-item">
+                      <div class="confidence-icon">🔧</div>
+                      <div class="confidence-content">
+                        <h4>White-Glove Sanctuary Setup</h4>
+                        <p>Professional assembly for $99.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cta-section">
+                  <div class="primary-cta">
+                    <button class="btn-primary large">Create My Sanctuary</button>
+                    <div class="cta-details">Free shipping • 30-day returns • Professional assembly available</div>
+                  </div>
+
+                  <div class="secondary-ctas">
+                    <button class="btn-secondary">Add Sanctuary Sofa</button>
+                    <button class="btn-link">Save for Later</button>
+                    <button class="btn-link">Share with Partner</button>
+                  </div>
+
+                  <div class="urgency-elements">
+                    <div class="seasonal-demand">Peak outdoor season - high demand expected</div>
+                    <div class="shipping-timeline">Order by 2PM for weekend sanctuary setup</div>
+                  </div>
+
+                  <div class="payment-options">
+                    <div class="financing">As low as $66/month - start your sanctuary today</div>
+                    <div class="bundle-savings">Save $150 when you complete your sanctuary</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <div class="section-7">
             <div class="background-13">
               <div class="flex-row-26">
@@ -4429,59 +4625,61 @@
           </p>
         </div>
       </footer>
-      
+
     </div>
     <div class="sticky-cart">
-    <button>Create My Sanctuary ($1,586.75)</button>
-    <div class="slide-text-container">
-      <div class="slide-texts">
-        <div class="troopod_delivery_info">1000+ Weekly Views</div>
-        <div class="troopod_delivery_info">FREE Shipping Over $45</div>
-        <div class="troopod_delivery_info">Best Price Guaranteed</div>
-        <div class="troopod_delivery_info">FREE In-Store Returns</div>
+      <button>Create My Sanctuary</button>
+
+
+      <div class="slide-text-container">
+        <div class="slide-texts">
+          <div class="troopod_delivery_info">418+ Happy Sanctuary Owners</div>
+          <div class="troopod_delivery_info">All-Weather, Year-Round Peace</div>
+          <div class="troopod_delivery_info">Free Sanctuary Delivery</div>
+          <div class="troopod_delivery_info">30-Day Sanctuary Trial</div>
+        </div>
       </div>
     </div>
   </div>
-  </div>
-  
+
   <script>
- let deliveryintervalId = null;
+    let deliveryintervalId = null;
 
     function initDeliveryInfo() {
 
-        setTimeout(() => {
-            const deliveryInfoElements = document.querySelectorAll('.troopod_delivery_info');
-            const deliveryInfoLength = 4;
-    
-            if (deliveryInfoElements.length === deliveryInfoLength) {
-                let currentIndex = 0;
-    
-                if (deliveryintervalId) {
-                    clearInterval(deliveryintervalId); 
-                }
-    
-                const showNextItem = function () {
-                    const currentItem = deliveryInfoElements[currentIndex];
-                    const nextIndex = (currentIndex + 1) % deliveryInfoElements.length;
-                    const nextItem = deliveryInfoElements[nextIndex];
-    
-                    if (currentItem && nextItem) {
-                        currentItem.classList.remove('active');
-                        nextItem.classList.add('active');
-                        currentIndex = nextIndex;
-                    }
-                };
-    
-                deliveryInfoElements.forEach(el => el.classList.remove('active'));
-                deliveryInfoElements[0]?.classList.add('active');
-    
-                deliveryintervalId = setInterval(showNextItem, 3000); 
-            } else {
-                initDeliveryInfo(); 
+      setTimeout(() => {
+        const deliveryInfoElements = document.querySelectorAll('.troopod_delivery_info');
+        const deliveryInfoLength = 4;
+
+        if (deliveryInfoElements.length === deliveryInfoLength) {
+          let currentIndex = 0;
+
+          if (deliveryintervalId) {
+            clearInterval(deliveryintervalId);
+          }
+
+          const showNextItem = function () {
+            const currentItem = deliveryInfoElements[currentIndex];
+            const nextIndex = (currentIndex + 1) % deliveryInfoElements.length;
+            const nextItem = deliveryInfoElements[nextIndex];
+
+            if (currentItem && nextItem) {
+              currentItem.classList.remove('active');
+              nextItem.classList.add('active');
+              currentIndex = nextIndex;
             }
-        }, 500);
+          };
+
+          deliveryInfoElements.forEach(el => el.classList.remove('active'));
+          deliveryInfoElements[0]?.classList.add('active');
+
+          deliveryintervalId = setInterval(showNextItem, 3000);
+        } else {
+          initDeliveryInfo();
+        }
+      }, 500);
     }
-    
+
     initDeliveryInfo();
   </script>
 
