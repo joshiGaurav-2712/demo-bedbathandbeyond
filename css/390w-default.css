@@ -8,6 +8,24 @@
   min-height: 11250px;
   width: 390px;
 }
+.mySwiper.swiper {
+  width: 90%;
+  max-width: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.mySwiper .swiper-slide {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 400px;
+}
 
 .x390w-default .header {
   align-items: flex-start;
