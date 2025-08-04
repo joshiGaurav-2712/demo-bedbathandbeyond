@@ -356,7 +356,7 @@
   flex: 0 0 auto;
   justify-content: flex-end;
   min-width: 390px;
-  padding: 0 86.8px;
+  padding: 4px 86.8px;
 }
 
 .x390w-default .overlap-group-4 {
@@ -462,7 +462,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 12px 0 100px 0;
+  padding: 0px 0 100px 0;
   width: 390px;
   z-index: 2;
 }
@@ -514,19 +514,19 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin-top: 12px;
-  min-height: 78px;
+  /* margin-top: 12px;
+  min-height: 78px; */
   width: 358px;
 }
 
-.x390w-default .flex-row-17 {
+/* .x390w-default .flex-row-17 {
   align-items: flex-start;
   display: flex;
   gap: 66px;
   height: 31px;
   margin-top: -1px;
   min-width: 358px;
-}
+} */
 
 .x390w-default .signature-design-by-ashley {
   height: 21px;
@@ -588,7 +588,7 @@
   gap: 7px;
   justify-content: flex-end;
   margin-right: 16px;
-  margin-top: 21px;
+  /* margin-top: 21px; */
   min-width: 59px;
 }
 
@@ -700,7 +700,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 14px;
-  min-height: 987px;
+  min-height: 887px;
   position: relative;
   width: 358px;
 }
@@ -2243,7 +2243,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 91px;
+  /* width: 91px; */
 }
 
 .x390w-default .container-3 {
@@ -2318,7 +2318,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 90px;
+  /* width: 90px; */
 }
 
 .x390w-default .container-5 {
@@ -2335,7 +2335,7 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-bottom: -15px;
-  width: 129px;
+  /* width: 129px; */
 }
 
 .x390w-default .x20200227_rating-star-emptysvg-44 {
@@ -2459,7 +2459,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 93px;
+  /* width: 93px; */
 }
 
 .x390w-default .deco-9-piece-sunbrel-1 {
@@ -2580,7 +2580,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 75px;
+  /* width: 75px; */
 }
 
 .x390w-default .x4-piece-outdoor-pati-1 {
@@ -2629,7 +2629,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 92px;
+  /* width: 92px; */
 }
 
 .x390w-default .ohana-outdoor-patio-1 {
@@ -2975,7 +2975,7 @@
   letter-spacing: 0;
   line-height: 19.2px;
   margin-top: 5px;
-  width: 88px;
+  /* width: 88px; */
 }
 
 .x390w-default .polywood-lakeside-deep-seating-sofa-1 {
@@ -3248,7 +3248,7 @@
   margin-left: 0.28px;
   margin-top: 7px;
   text-align: center;
-  width: 132px;
+  /* width: 132px; */
 }
 
 .x390w-default .name-1 {
@@ -3352,7 +3352,7 @@
   margin-left: 0.28px;
   margin-top: 7px;
   text-align: center;
-  width: 132px;
+  /* width: 132px; */
 }
 
 .x390w-default .name-2 {
@@ -3436,7 +3436,7 @@
   line-height: normal;
   margin-left: 0.3px;
   text-align: center;
-  width: 140px;
+  /* width: 140px; */
 }
 
 .x390w-default .rowheader {
@@ -4173,7 +4173,7 @@
 }
 
 .x390w-default .signature-design-by-5 {
-  height: 48px;
+  /* height: 48px; */
   letter-spacing: 0;
   line-height: 15px;
   margin-bottom: -15px;
@@ -4233,7 +4233,7 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-bottom: -15px;
-  width: 161px;
+  /* width: 161px; */
 }
 
 .x390w-default .x20200227_rating-star-emptysvg-22 {
@@ -4281,7 +4281,7 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-bottom: -15px;
-  width: 165px;
+  /* width: 165px; */
 }
 
 .x390w-default .x20200227_rating-star-emptysvg-23 {
@@ -4519,7 +4519,7 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-bottom: -15px;
-  width: 163px;
+  /* width: 163px; */
 }
 
 .x390w-default .number-26 {
@@ -4959,7 +4959,7 @@
   height: 42px;
   letter-spacing: 0;
   line-height: 19.2px;
-  width: 73px;
+  /* width: 73px; */
 }
 
 .x390w-default .x5-piece-wicker-patio-1 {
@@ -6356,7 +6356,7 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-top: -2.6px;
-  width: 129px;
+  /* width: 129px; */
 }
 
 .x390w-default .x20200227_rating-star-emptysvg-29 {
@@ -9306,7 +9306,7 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  padding: 24px 16px;
+  padding: 20px 16px;
   width: 390px;
 }
 
@@ -9335,7 +9335,7 @@
   font-weight: 400;
   line-height: 1.4;
   margin: 0 0 24px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .x390w-default .key-highlights-section {
@@ -10168,7 +10168,7 @@
   background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
   display: flex;
   flex-direction: column;
-  padding: 48px 16px;
+  padding: 28px 16px;
   width: 390px;
 }
 
@@ -10256,7 +10256,7 @@
 }
 
 .x390w-default .testimonial-quote::before {
-  color: #3b2f2f;
+  color: white;
   content: '"';
   font-family: var(--font-family-jost);
   font-size: 32px;
@@ -10449,7 +10449,7 @@
 
 .x390w-default .testimonial-card.featured:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 40px rgba(59, 47, 47, 0.25);
+  box-shadow: 0 15px 40px rgba(145, 122, 122, 0.25);
 }
 
 /* Enhanced author badge styling */
@@ -10460,7 +10460,7 @@
   font-family: var(--font-family-jost);
   font-size: 10px;
   font-weight: 600;
-  padding: 3px 10px;
+  padding: 5px 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   display: inline-block;
