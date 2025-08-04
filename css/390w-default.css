@@ -8711,18 +8711,16 @@
 }
 
 .x390w-default .footer {
-  align-items: flex-start;
+  align-items: center;
   background-color: transparent;
   display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  height: auto;
-  justify-content: flex-start;
-  margin-bottom: 100px;
-  min-height: 579px;
-  padding: 0px 0;
-  width: 390px;
-  z-index: 3;
+  justify-content: center;
+  width: 100%;
+}
+
+.x390w-default .footer img{
+  width: 100%;
+  height: 100%;
 }
 
 .x390w-default .overlap-group21 {
