@@ -30,7 +30,7 @@
   --font-size-xl: 16px;
   --font-size-xs: 10px;
   --font-size-xxl: 18px;
-  --font-size-xxxl: 20px;
+  --font-size-xxxl: 24px;
  
   --font-family-hind-bold: "Hind-Bold", Helvetica;
   --font-family-inter: "Inter", Helvetica;
@@ -147,7 +147,7 @@
 .jost-bold-mine-shaft-18px {
   color: var(--mine-shaft);
   font-family: var(--font-family-jost);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 700;
 }
